@@ -10,7 +10,7 @@ internal fun Project.configureFirebase(extension: ApplicationExtension) {
     extension.buildTypes {
         getByName("debug") {
             configureAppDistribution()
-            //configureCrashlytics()
+            configureCrashlytics()
         }
     }
 }
